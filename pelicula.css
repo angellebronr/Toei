@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f63b3b;
+
+}
+
+/*CABECERA*/
+header {
+    max-width: 1200px;
+    min-height: 190px;
+    margin: 0 auto;
+    border-radius: 23px 23px 0 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ededed+40,ededed+40,f3f3f3+50,ffffff+100 */
+    background: linear-gradient(to bottom, #ffffff 0%, #ededed 40%, #ededed 40%, #f3f3f3 50%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+/*CABECERA*/
+#logo {
+    width: 420px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-top: -5px;
+    animation: 1s entradalogo 1;
+}
+
+#logo img:hover {
+    filter: hue-rotate(200deg);
+
+}
+
+
+#tooei {
+    width: 283px;
+    height: 300 px;
+
+}
+
+#mennu {
+
+    max-width: 1200px;
+    min-height: 70px;
+    margin: 0 auto;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#f85032+12,f6290c+22,f16f5c+50,f02f17+83,e73827+100 */
+    background: linear-gradient(to bottom, #f85032 12%, #f6290c 22%, #f16f5c 50%, #f02f17 83%, #e73827 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#mennu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#mennu a {
+    color: black;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#f85032+12,f6290c+22,f16f5c+50,f02f17+83,e73827+100 */
+    background: linear-gradient(to bottom, #f85032 12%, #f6290c 22%, #f16f5c 50%, #f02f17 83%, #e73827 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#mennu a:hover {
+    background: white;
+}
+
+
+#banner {
+    max-width: 1200px;
+    min-height: 200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#item {
+    width: 1200px;
+    height: 450px;
+}
+
+#containt {
+    max-width: 1200px;
+    min-height: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -500px;
+
+
+}
+
+footer {
+    max-width: 1200px;
+    min-height: 160px;
+    margin: 0 auto;
+    border-radius: 0 0 23px 23px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#f85032+12,f6290c+22,f16f5c+50,f02f17+83,e73827+100 */
+    background: linear-gradient(to bottom, #f85032 12%, #f6290c 22%, #f16f5c 50%, #f02f17 83%, #e73827 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.Gini {
+    margin-top: 30px;
+
+
+}
+
+.face {
+    margin-top: 25px;
+    max-width: 100px;
+    min-height: 100px;
+    margin-left: 50px;
+}
+
+.potaxio {
+    max-width: 100px;
+    min-height: 100px;
+    margin-left: 50px;
+}
+
+.insta {
+    max-width: 100px;
+    min-height: 100px;
+    margin-left: 50px;
+}
+
+
+
+#noti {
+    margin-left: 510px;
+    margin-top: -31px;
+    font-size: 25px;
+}
+
+/*MENU-VERTICAL*/
+#mennu-v {
+    width: 300px;
+    min-height: 1205px;
+    background: #3b83e7;
+    float: left;
+    margin-top: -1150px;
+}
+
+#mennu-v ul {
+    list-style: none;
+    padding: 10px;
+
+}
+
+#mennu-v img {
+    width: 40px;
+    min-height: 40px;
+}
+
+#mennu-v a {
+    display: block;
+    color: #ffffff;
+    background: #ccc;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#mennu-v a:hover {
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#f85032+12,f6290c+22,f16f5c+50,f02f17+83,e73827+100 */
+    background: linear-gradient(to bottom, #f85032 12%, #f6290c 22%, #f16f5c 50%, #f02f17 83%, #e73827 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#mennu-v a:hover img {
+
+    animation: 1s rotacion 1;
+}
+
+/*MENU-VERTICAL*/
+
+/*KEYFRAMES*/
+.dig {
+margin-left: 500px;
+    margin-top: 500px;
+    margin-left: 500px;
+border: 2px solid black;
+height: 280px;
+width: 319px;
+}
+
+.ya {
+    margin-left: 500px;
+    margin-top: 90px;
+    margin-left: 500px;
+border: 2px solid black;
+height: 340px;
+width: 319px;
+
+}
+
+.ya img{
+    height: 200px;
+    width: 320px;
+}
+
+
+.cero {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-left: 500px;
+border: 2px solid black;
+height: 375px;
+width: 300px; 
+}
+
+@keyframes entradalogo {
+    0% {
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(270deg);
+    }
+}
